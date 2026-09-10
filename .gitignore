@@ -1,42 +1,38 @@
 # Xcode
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xcworkspace/xcuserdata/
-*.xcworkspace/xcshareddata/
+.DS_Store
 xcuserdata/
-build/
+*.xcuserdatad
 DerivedData/
-*.ipa
-*.dSYM
-*.app
+*.xcworkspace/xcuserdata/
+.swiftpm/
+
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.env.local
 
 # CocoaPods
 Pods/
 Podfile.lock
 
-# Carthage
-Carthage/Build/
-
-# SwiftPM
+# Swift Package Manager
 .build/
-.swiftpm/
+*.xcframework
 
 # Xcode
+*.pbxproj.orig
+*.xcarchive
+
+# macOS
 .DS_Store
-*.xcodeproj/xcuserdata/
-*.xcodeproj/project.xcworkspace/xcuserdata/
-*.swiftpm/xcode/package.xcworkspace/xcuserdata/
-
-# IDEs
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
